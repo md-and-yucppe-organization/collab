@@ -1,11 +1,19 @@
 body {
 	background-color: hsl(151, 100%, 90%);
-	font-family: Actor; font-size: 15px;
 	text-align: justify;
+}
+
+p {
+	font-family: Helvetica; 
+	font-size: 15px;
+}
+
+h1, h2 {
+	font-family: Actor;
 }
 
 header {
 	background-color: hsl(165, 100%, 40%);
-	font-family: Actor;
+	font-family: Helvetica;
 	padding: 2px;
 }
