@@ -5,17 +5,47 @@
 	<title>md&yucppe project</title>
 	<link rel="stylesheet" href="stylesheets/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		p.ridge {
+			border-style: ridge;
+			border-radius: 5px;
+		}
+	</style>
 </head>
 <body>
 <header>
 	<h1>md&amp;yucppe's project</h1>
 	<p>This is the project where we're going to practice and improve our programming skills.</p>
+	<nav>
+		<a href="#home">Home</a> |
+		<a href="#aboutus">About us</a> | 
+		<a href="#contactus">Contact us</a> |
+		<a href="#physics">Physics</a> 
+	</nav>
 </header>
 
-<section>
+<section id="home">
 	<h2>Welcome</h2>
 	<p>Hey, let's try some CSS in here.</p>
+</section>
+
+<section id="aboutus">
+	<h2>About Us</h2>
+	<p>We're two Physics' students frustrated by the inefficiency of the university and online-classes. We decided to learn Web Programming and here we are.</p>
+
+	<p class="ridge" style="border-color:violet">md is a 22 year old student, she's actually in 6th semester of Physics and she loves puppies and cats.</p>
+
+	<p class="ridge" style="border-color:lightblue">Yucppe is a 22 year old student, he's actually in 5th semester of Physics and he's also a musician, he plays the tambor!</p>
+</section>
+
+<section id="contactus">
+	<h2>Contact Us</h2>
+	<p>You can email <a href="mailto:mariadanielaagudo@gmail.com">md</a> and <a href="mailto:yucppe@gmail.com">Yucppe.</a></p>
+</section>
+
+<section id="physics">
+	<h2>Physics</h2>
+	<p>We study Physics at Universidad de Carabobo in Venezuela. md is interested in particle physics and Yucppe likes condensed matter or idk insert here Yucppe's interests.</p>
 </section>
 
 <footer>
