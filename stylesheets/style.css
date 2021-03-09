@@ -1,0 +1,11 @@
+body {
+	background-color: hsl(151, 100%, 90%);
+	font-family: Actor; font-size: 15px;
+	text-align: justify;
+}
+
+header {
+	background-color: hsl(165, 100%, 40%);
+	font-family: Actor;
+	padding: 2px;
+}
